@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../fonts/12093.ttf');
+	url('../fonts/12093.ttf') format('ttf'),
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Intro';
+	src: url('../fonts/8289.otf');
+	url('../fonts/8289.otf') format('otf'),
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.2;
+    font-family: 'ProximaNova';
+    color: rgb(0, 0, 0);
+}
+.wrapper {
+    max-width: 60.8%;
+    margin: 0 auto;
+    padding: 0 14px;
+}
+header {
+    min-height: 56px;
+    padding-top: 10px;
+}
+header .logo, header .logo-description {
+    display: inline-block;
+    text-transform: uppercase;
+}
+header .logo {
+    font-size: 30px;
+    letter-spacing: 0.3em;
+    color: rgb(4, 4, 4);
+    text-transform: uppercase; 
+}
+header .logo-description {
+    font-size: 13px;
+    max-width: 200px;
+}
+header .number, header button {
+    display: inline-block;
+}
+header .number {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 17px;
+} 
+header .btn-primary {
+    background: linear-gradient(to top, #ff5057, #fd7048);
+    border: none;
+    position: absolute;
+}
+.content {
+	background: url("../images/спальня-1.png") repeat-x top center;
+	min-height: 797px;
+    position: relative;
+}
+.content nav {
+    min-height: 35px;
+}
+
