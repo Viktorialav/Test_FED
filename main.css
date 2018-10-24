@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('fonts/12093.ttf');
+	url('fonts/12093.ttf') format('ttf'),
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Intro';
+	src: url('fonts/8436.ttf');
+	url('fonts/8436.ttf') format('ttf'),
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.2;
+    font-family: 'ProximaNova';
+    color: rgb(0, 0, 0);
+}
+header {
+    min-height: 56px;
+    padding: 10px;
+}
+header .logo, header .logo-description {
+    display: inline-block;
+    text-transform: uppercase;
+}
+header .logo {
+    font-size: 30px;
+    letter-spacing: 0.3em;
+    color: rgb(4, 4, 4);
+    text-transform: uppercase;  
+}
+header .logo-description {
+    font-size: 13px;
+    max-width: 200px;
+}
+header .number, header button {
+    display: inline-block;
+}
+header .number {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 17px;
+} 
+header .btn-primary {
+    background: linear-gradient(to top, #ff5057, #fd7048);
+    border: none;
+    position: absolute;
+}
+.content {
+	background: url("images/спальня-1.png") repeat-x top center;
+	min-height: 797px;
+ 
+}
+.content nav {
+    min-height: 35px;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+}
+.content nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 60px;
+}
+.content nav li {
+    display: inline-block;
+}
+.content nav a {
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    display: block;
+    line-height: 35px;
+    padding: 0 65px;
+}
+.content nav a:hover {
+    font-weight: bold;
+}
+.content .title {
+    position: absolute;
+    top: 35px;
+    min-height: 183px;
+    border-left: solid 4px #fff;
+    transform: skewX(-15deg);
+}
+.content .main_title {
+    padding: 0 18px;
+    display: inline-block;
+    margin-left: 9px;
+    background-color: rgba(255,255,255,.7);
+}
+.main_title > h1 {
+    font-family: 'Intro';
+    font-weight: 900;
+    font-size: 77.513px;
+    margin: 0;
+    line-height: 109px;
+    text-transform: uppercase;
+    transform: skewX(15deg);
+}
+.content .add_title {
+    padding: 11px 20px;
+    display: inline-block;
+    margin: 10px 0 0 9px;
+    background-color: rgba(255,255,255,.7);
+}
+.add_title > h2 {
+    font-family: 'Intro';
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    line-height: 42px;
+    padding: 0 25px;
+    border-bottom: solid 3px #000;
+    font-style: italic;
+    transform: skewX(15deg);
+}
+.content .price_title {
+    display: inline-block;
+    background: linear-gradient(to right, #20bc20, #048004);
+    padding: 6px 25px 8px;
+    margin: 0 7px;
+}
+.price_title > h3 {
+    font-size: 18px;
+    font-family: "Intro";
+    font-weight: bold;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    transform: skewX(15deg);
+}
+.price_title h3 span {
+    font-size: 33px;
+    margin: 0 12px;
+}
+
