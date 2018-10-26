@@ -53,13 +53,13 @@ header .number {
 } 
 header .btn-primary {
     background: linear-gradient(to top, #ff5057, #fd7048);
-    border: none;
+    border-color: #fff;
+    font-weight: bold;
     position: absolute;
 }
 .content {
 	background: url("images/спальня-1.png") repeat-x top center;
 	min-height: 797px;
- 
 }
 .content nav {
     min-height: 35px;
@@ -88,8 +88,7 @@ header .btn-primary {
     font-weight: bold;
 }
 .content .title {
-    position: absolute;
-    top: 35px;
+    margin: 35px 0 15px;
     min-height: 183px;
     border-left: solid 4px #fff;
     transform: skewX(-15deg);
@@ -144,4 +143,49 @@ header .btn-primary {
     font-size: 33px;
     margin: 0 12px;
 }
-
+.content button {
+    background: linear-gradient(to top, #ff5057, #fd7048);
+    border-color: #fff;
+    font-weight: bold;
+}
+.content h4 {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin: 13px 0 26px;
+    font-family: "ProximaNova";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bottom_line {
+    min-height: 278px;
+    background: rgba(255,255,255,.8);
+    width: 100%;
+    position: absolute;
+    top: 581px;
+}
+.icon_1, .icon_2, .icon_3, .icon_4 {
+    min-height: 118px;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+.icon_1 {
+    background-image: url("images/icon_1.png"); 
+}
+.icon_2 {
+    background-image: url("images/icon_2.png"); 
+}
+.icon_3 {
+    background-image: url("images/icon_3.png"); 
+}
+.icon_4 {
+    background-image: url("images/icon_4.png"); 
+}
+.bottom_line h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.bottom_line p {
+    font-size: 16px;
+    text-align: center;
+}
